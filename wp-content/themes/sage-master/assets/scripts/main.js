@@ -19,6 +19,18 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
+
+        $('#slider_top .item').css('height', window.innerHeight)
+        $('.logo-container').css('top', window.innerHeight / 2 - 50)
+
+        $('.open-menu').on('click', function(e) {
+          e.preventDefault()
+          $('.menu-wrapper').fadeIn();
+        })
+        $('.close-menu').on('click', function(e) {
+          e.preventDefault()
+          $('.menu-wrapper').fadeOut();
+        })
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
