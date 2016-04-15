@@ -1,12 +1,12 @@
 <div class="menu-wrapper">
   <div class="container">
-     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/logo-icon.png" alt="Botanica" class="menu-logo" width="65px">
+    <a href="<?php bloginfo('url'); ?>/"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/logo-icon.png" alt="Botanica" class="menu-logo" width="65px"></a>
     <ul class="menu list-unstyled">
       <li>
         <a>1.-Galeria</a>
         <ul class="submenu list-unstyled">
           <li>
-            <a href="<?php bloginfo('url'); ?>">Por colores</a>
+            <a href="<?php bloginfo('url'); ?>/colores">Por colores</a>
           </li>
           <li>
             <a href="<?php bloginfo('url'); ?>/estilos">Por estilo</a>
