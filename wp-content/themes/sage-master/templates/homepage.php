@@ -6,24 +6,24 @@
         <a href="#">1.-Galeria</a>
         <ul class="submenu list-unstyled">
           <li>
-            <a href="#">Por colores</a>
+            <a class="close-menu" href="#colors">Por colores</a>
           </li>
           <li>
-            <a href="#">Por estilo</a>
+            <a class="close-menu" href="#">Por estilo</a>
           </li>
         </ul>
       </li>
       <li>
-        <a href="#">2.-Proyectos</a>
+        <a class="close-menu" href="#">2.-Proyectos</a>
       </li>
       <li>
-        <a href="#">3.-Articulos</a>
+        <a class="close-menu" href="#">3.-Articulos</a>
       </li>
       <li>
-        <a href="#">4.-Haz una cita</a>
+        <a class="close-menu" href="#">4.-Haz una cita</a>
       </li>
     </ul>
-    <a href="#" class="close-menu">
+    <a href="#" class="close-menu btn-close">
       <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/close-menu.png">
     </a>
   </div>

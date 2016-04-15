@@ -25,4 +25,5 @@ foreach ($sage_includes as $file) {
 
   require_once $filepath;
 }
+register_new_royalslider_files(1);
 unset($file, $filepath);

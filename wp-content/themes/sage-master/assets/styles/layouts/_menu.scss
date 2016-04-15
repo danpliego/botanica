@@ -8,6 +8,7 @@
   z-index: 2;
   padding: 50px 0;
   display: none;
+  z-index: 100;
   .container {
     position: relative;
   }
@@ -42,11 +43,11 @@
       display: block;
     }
   }
-  .close-menu {
+  .btn-close {
     display: block;
     position: absolute;
   }
-  .close-menu {
+  .btn-close {
     top: 0;
     right: 0;
     left: auto;

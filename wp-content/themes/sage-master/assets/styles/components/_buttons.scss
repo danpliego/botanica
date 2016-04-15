@@ -9,9 +9,13 @@
 .btn-default {
   border-color: $body-color;
   color: $body-color;
+  background: none;
   &:hover, &:focus, &:active {
     background: none;
     color: $body-color;
     border-color: $accent-color;
   }
+}
+.btn-sm {
+  padding: 5px 15px;
 }

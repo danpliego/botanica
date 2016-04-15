@@ -1,4 +1,4 @@
-<div class="color-gallery section">
+<div class="color-gallery section" id="colors">
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
@@ -18,56 +18,10 @@
           </div>
         </div>
         <div class="slider-container">
-          <div class="title red col-sm-4">
+          <div class="title red">
             <h2>Rojo</h2>
           </div>
-          <div class="slider">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/bg-image-1.png" class="img-responsive carousel"alt="">
-            <div class="thumbnails">
-              <div class="row">
-                <div class="col-sm-3">
-                  <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/bg-image-1.png" alt="" class="img-responsive"></a>
-                </div>
-                <div class="col-sm-3">
-                  <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/bg-image-1.png" alt="" class="img-responsive"></a>
-                </div>
-                <div class="col-sm-3">
-                  <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/bg-image-1.png" alt="" class="img-responsive"></a>
-                </div>
-                <div class="col-sm-3">
-                  <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/bg-image-1.png" alt="" class="img-responsive"></a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-3">
-                  <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/bg-image-1.png" alt="" class="img-responsive"></a>
-                </div>
-                <div class="col-sm-3">
-                  <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/bg-image-1.png" alt="" class="img-responsive"></a>
-                </div>
-                <div class="col-sm-3">
-                  <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/bg-image-1.png" alt="" class="img-responsive"></a>
-                </div>
-                <div class="col-sm-3">
-                  <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/bg-image-1.png" alt="" class="img-responsive"></a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-3">
-                  <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/bg-image-1.png" alt="" class="img-responsive"></a>
-                </div>
-                <div class="col-sm-3">
-                  <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/bg-image-1.png" alt="" class="img-responsive"></a>
-                </div>
-                <div class="col-sm-3">
-                  <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/bg-image-1.png" alt="" class="img-responsive"></a>
-                </div>
-                <div class="col-sm-3">
-                  <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/bg-image-1.png" alt="" class="img-responsive"></a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <?php get_template_part('templates/content', 'page'); ?>
         </div>
       </div>
     </div>
