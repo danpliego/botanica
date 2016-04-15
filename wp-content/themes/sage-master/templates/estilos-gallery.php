@@ -14,7 +14,7 @@
             <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/logo-icon.png" alt="Botanica" class="menu-logo" width="50px" height="50px">
           </div>
           <div class="media-right media-middle">
-            <a href="#" class="btn btn-default">Ver por colores</a>
+            <a href="<?php bloginfo('url'); ?>" class="btn btn-default">Ver por colores</a>
           </div>
         </div>
         <div class="slider-container">

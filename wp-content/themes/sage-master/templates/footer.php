@@ -9,17 +9,17 @@
       <div class="col-sm-9 text-right footer-menu">
         <ul class="list-inline">
           <li>
-            <a href="#" class="btn btn-default btn-sm">Haz una cita</a>
+            <a href="<?php bloginfo('url'); ?>/haz-una-cita" class="btn btn-default btn-sm">Haz una cita</a>
             <br>
             <p class="cita">cita</p>
           </li>
           <li>
-            <a href="#" class="btn btn-default lighter btn-sm">Llamanos</a>
+            <a href="tel:5255335944" class="btn btn-default lighter btn-sm">Llamanos</a>
             <br>
             <a class="data" href="tel:5255335944">(52) 5533.5944</a>
           </li>
           <li>
-            <a href="#" class="btn btn-default lighter btn-sm">Escríbenos</a>
+            <a href="mailto:contacto@botanica.mx" class="btn btn-default lighter btn-sm">Escríbenos</a>
             <br>
             <a class="data" href="mailto:contacto@botanica.mx">contacto@botanica.mx</a>
           </li>
