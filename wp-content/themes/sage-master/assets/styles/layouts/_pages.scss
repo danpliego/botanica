@@ -13,33 +13,33 @@
       background: $gray-color;
     }
   }
+  .header {
+    margin-bottom: 60px;
+    .title {
+      margin-top: 50px;
+      height: 350px;
+      text-align: center;
+      color: #fff;
+      position: absolute;
+      z-index: 23;
+      width: 250px;
+      h2 {
+        margin-top: 150px;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 10px;
+        font-size: 36px;
+      }
+      &.red {
+        background: $red-color url('../images/layout/ramas/red.png') center left no-repeat;
+      }
+    }
+  }
 }
 
 // Color gallery
 
 .color-gallery {
-  .header {
-    margin-bottom: 60px;
-  }
-  .title {
-    margin-top: 50px;
-    height: 350px;
-    text-align: center;
-    color: #fff;
-    position: absolute;
-    z-index: 23;
-    width: 250px;
-    h2 {
-      margin-top: 150px;
-      text-transform: uppercase;
-      font-weight: 500;
-      letter-spacing: 10px;
-      font-size: 36px;
-    }
-    &.red {
-      background: $red-color url('../images/layout/ramas/red.png') center left no-repeat;
-    }
-  }
   .carousel {
     margin-bottom: 30px;
   }
