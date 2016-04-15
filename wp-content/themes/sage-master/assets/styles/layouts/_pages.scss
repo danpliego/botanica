@@ -1,0 +1,47 @@
+.section {
+  margin: 60px 0;
+  .open-menu {
+    border: 2px solid $gray-color;
+    width: 80px;
+    padding: 17px 17px 7px;
+    display: block;
+    margin-right: 45px;
+    .line {
+      display: block;
+      height: 5px;
+      margin-bottom: 10px;
+      background: $gray-color;
+    }
+  }
+}
+
+// Color gallery
+
+.color-gallery {
+  .header {
+    margin-bottom: 60px;
+  }
+  .title {
+    margin-top: 50px;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    h2 {
+      margin-top: 200px;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 10px;
+      font-size: 36px;
+    }
+    &.red {
+      background: $red-color;
+    }
+  }
+  .carousel {
+    margin-bottom: 30px;
+  }
+  .thumbnails img {
+    margin-bottom: 15px;
+  }
+}

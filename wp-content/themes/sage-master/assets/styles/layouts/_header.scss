@@ -1,0 +1,37 @@
+#slider_top {
+  position: relative;
+  .item-1 {
+    background: url('../images/layout/bg-image-1.png') no-repeat;
+  }
+  .item-2 {
+    background: url('../images/layout/bg-image-2.png') no-repeat;
+  }
+  .item {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .tagline {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #fff;
+    font-size: 15px;
+  }
+  .open-menu {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+    width: 80px;
+    height: 74px;
+  }
+  .open-menu {
+    background: url('../images/layout/menu.png') no-repeat;
+    &:hover {
+      background: url('../images/layout/menu-hover.png') no-repeat;
+    }
+  }
+}
