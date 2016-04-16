@@ -51,6 +51,26 @@
     background: #fff;
   }
 
+// Estilos
+
+.estilos-gallery {
+  .slider-container .title {
+    background: #fff;
+    border: 2px solid $body-color;
+    padding: 20px 30px;
+    display: inline-block;
+    width: 230px;
+    color: $body-color;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+    position: absolute;
+    z-index: 11;
+    margin-left: -20px;
+    margin-top: -10px;
+  }
+}
+
 // Proyectos
 
 .proyectos {

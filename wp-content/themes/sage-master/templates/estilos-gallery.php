@@ -18,6 +18,9 @@
           </div>
         </div>
         <div class="slider-container">
+          <h1 class="title">
+            1.- Antigua Black
+          </h1>
           <?php get_template_part('templates/content', 'page'); ?>
         </div>
       </div>

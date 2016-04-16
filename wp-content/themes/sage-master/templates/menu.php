@@ -19,9 +19,6 @@
       <li>
         <a href="#">3.-Articulos</a>
       </li>
-      <li>
-        <a href="<?php bloginfo('url'); ?>/haz-una-cita">4.-Haz una cita</a>
-      </li>
     </ul>
     <a href="#" class="close-menu btn-close">
       <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/close-menu.png">
