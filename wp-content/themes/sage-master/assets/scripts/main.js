@@ -20,17 +20,37 @@
       init: function() {
         // JavaScript to be fired on all pages
 
-        $('#slider_top .item').css('height', window.innerHeight)
-        $('.logo-container').css('top', window.innerHeight / 2 - 50)
+        $('#slider_top .item').css('height', window.innerHeight);
+        $('.logo-container').css('top', window.innerHeight / 2 - 50);
 
         $('.open-menu').on('click', function(e) {
-          e.preventDefault()
+          e.preventDefault();
           $('.menu-wrapper').fadeIn();
         })
+
         $('.close-menu').on('click', function(e) {
-          e.preventDefault()
+          e.preventDefault();
           $('.menu-wrapper').fadeOut();
         })
+
+        $('.toggle-contact').on('click', function(e) {
+          e.preventDefault();
+          $('.contact-form').fadeIn();
+        })
+
+        if($('.slider-proyectos').length > 0) {
+
+          $('.toggle-event').on('click', function(e) {
+            console.log('click')
+            e.preventDefault();
+            $('.toggle-event').hide();
+            $('.event-info').fadeIn();
+          })
+
+          source = $('.slide-image img').attr('src');
+          $('.slide-image').css('background-image', 'url('+source+')');
+
+        }
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired

@@ -13,7 +13,7 @@
   &:hover, &:focus, &:active {
     background: none;
     color: $body-color;
-    border-color: $accent-color;
+    border-color: $body-color;
   }
 }
 .btn-sm {
@@ -26,4 +26,14 @@
 }
 .btn-primary img {
   display: none;
+}
+.btn-dark {
+  background-color: $body-color;
+  border-color: $body-color;
+  color: #fff;
+  &:hover, &:focus, &:active {
+    color: #fff;
+    background: $accent-color;
+    border-color: $accent-color;
+  }
 }

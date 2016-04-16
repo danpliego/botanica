@@ -77,15 +77,108 @@
       &:after {
         content: '';
         display: block;
-        margin-top: 20px;
-        height: 2px;
+        margin-top: 25px;
+        height: 3px;
         width: 100px;
         background: #B6B6B7;
         margin: 0px auto;
       }
     }
+    .slide-image {
+      height: 450px;
+      background-position: center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    .slide-image img {
+      display: none;
+    }
+    .toggle-event {
+      color: $gray-color;
+      margin-top: 30px;
+      display: block;
+      .circle {
+        border: 3px solid $gray-color;
+        border-radius: 50px;
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        i {
+          font-size: 24px;
+          padding: 18px 0;
+        }
+      }
+      .name {
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-top: 15px;
+      }
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
   .event-info {
     display: none;
+    .height-hack {
+      display: table;
+      width: 100%;
+      > div {
+        display: table-cell;
+        float: none;
+      }
+    }
+    .green {
+      background: $accent-color url('../images/layout/ramas/green.png') no-repeat center right;
+      color: #fff;
+    }
+    .green-leaf {
+      background: $accent-color url('../images/layout/hojas/hoja-verde.png') no-repeat center center;
+      color: #fff;
+      min-height: 280px;
+      a {
+        color: #fff;
+        font-size: 32px;
+      }
+    }
+    .gray {
+      background: $gray-light-color;
+      color: $body-color;
+    }
+    .color-area {
+      padding: 40px;
+      position: relative;
+    }
+    .foto-absolute {
+      width: 50%;
+      position: absolute;
+      height: auto;
+      border: 1px solid red;
+      top: 0;
+      right: -50%;
+      display: none;
+    }
+    .box-title {
+      display: block;
+      border: 2px solid #fff;
+      padding: 10px 40px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 600;
+    }
+    .text {
+      text-align: left;
+      padding: 40px;
+      p {
+        letter-spacing: 3px;
+        font-size: 13px;
+      }
+    }
+    .box-vertical {
+      margin: 30px 0;
+    }
   }
 }
