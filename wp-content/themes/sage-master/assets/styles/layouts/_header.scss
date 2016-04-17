@@ -27,11 +27,13 @@
     z-index: 1;
     width: 80px;
     height: 74px;
-  }
-  .open-menu {
-    background: url('../images/layout/menu.png') no-repeat;
-    &:hover {
-      background: url('../images/layout/menu-hover.png') no-repeat;
+    img {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .bottom {
+      display: none;
     }
   }
 }

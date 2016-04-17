@@ -6,6 +6,10 @@
   border: 2px solid;
   padding: 10px 15px;
 }
+.btn-link {
+  border: 0;
+  color: $body-color;
+}
 .btn-default {
   border-color: $body-color;
   color: $body-color;

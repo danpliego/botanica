@@ -7,11 +7,13 @@
     </div>
   </div>
   <a href="#" class="open-menu">
+    <img class="top" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/menu.png">
+    <img class="bottom" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/menu-hover.png">
   </a>
   <div class="logo-container">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/logo.png" alt="Botanica" class="img-responsive">
   </div>
   <div class="tagline">
-    - México, D.F.
+    - Ciudad de México.
   </div>
 </div>

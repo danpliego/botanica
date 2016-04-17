@@ -3,7 +3,7 @@
     <a href="<?php bloginfo('url'); ?>/"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/logo-icon.png" alt="Botanica" class="menu-logo" width="65px"></a>
     <ul class="menu list-unstyled">
       <li>
-        <a>1.-Galeria</a>
+        <a href="#" class="gallery-link">1.-Galeria</a>
         <ul class="submenu list-unstyled">
           <li>
             <a href="<?php bloginfo('url'); ?>/colores">Por colores</a>

@@ -36,6 +36,9 @@
         $('.toggle-contact').on('click', function(e) {
           e.preventDefault();
           $('.contact-form').fadeIn();
+           $('html, body').animate({
+                scrollTop: $("#contact_form").offset().top
+            }, 2000);
         });
 
         if($('.slider-proyectos').length > 0) {
@@ -51,6 +54,36 @@
           $('.slide-image').css('background-image', 'url('+source+')');
 
         }
+
+        $('.fadein').each(function() {
+
+            var std = $(this).attr("src");
+            var hover = std.replace(".png", "-hover.png");
+            $(this).clone().insertAfter(this).attr('src', hover).removeClass('fadein').siblings().css({
+                position:'absolute'
+            });
+            $(this).mouseenter(function() {
+                $(this).stop().fadeTo(600, 0);
+            }).mouseleave(function() {
+                $(this).stop().fadeTo(600, 1);
+            });
+        });
+
+        $('.open-menu').mouseenter(function() {
+            $('.top').fadeOut('fast');
+            $('.bottom').fadeIn('fast');
+        });
+
+        $('.open-menu').mouseleave(function() {
+            $('.top').fadeIn('fast');
+            $('.bottom').fadeOut('fast');
+        });
+
+        $('.gallery-link').on('click', function(e) {
+          e.preventDefault();
+          $('.submenu').fadeIn();
+        });
+
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
