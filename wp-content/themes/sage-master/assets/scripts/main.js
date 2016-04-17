@@ -26,26 +26,26 @@
         $('.open-menu').on('click', function(e) {
           e.preventDefault();
           $('.menu-wrapper').fadeIn();
-        })
+        });
 
         $('.close-menu').on('click', function(e) {
           e.preventDefault();
           $('.menu-wrapper').fadeOut();
-        })
+        });
 
         $('.toggle-contact').on('click', function(e) {
           e.preventDefault();
           $('.contact-form').fadeIn();
-        })
+        });
 
         if($('.slider-proyectos').length > 0) {
 
           $('.toggle-event').on('click', function(e) {
-            console.log('click')
+            console.log('click');
             e.preventDefault();
             $('.toggle-event').hide();
             $('.event-info').fadeIn();
-          })
+          });
 
           source = $('.slide-image img').attr('src');
           $('.slide-image').css('background-image', 'url('+source+')');
