@@ -44,10 +44,14 @@
         if($('.slider-proyectos').length > 0) {
 
           $('.toggle-event').on('click', function(e) {
-            console.log('click');
             e.preventDefault();
             $('.toggle-event').hide();
             $('.event-info').fadeIn();
+
+
+            var largeHeight = $('.boxed-img').outerHeight()
+            $('.flowers').css('height', largeHeight - 20);
+
           });
 
           source = $('.slide-image img').attr('src');

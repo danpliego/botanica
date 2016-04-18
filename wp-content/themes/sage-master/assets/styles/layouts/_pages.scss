@@ -143,26 +143,44 @@
   }
   .event-info {
     display: none;
-    .height-hack {
-      display: table;
-      width: 100%;
+    margin-top: 20px;
+    .row {
+      margin-left: -10px;
+      margin-right: -10px;
       > div {
-        display: table-cell;
-        float: none;
+        padding-left: 10px;
+        padding-right: 10px;
       }
+    }
+    .floating-img {
+      position: absolute;
+      z-index: 1;
+      left: 45%;
+      margin-top: 40px;
+    }
+    .floating-bg .color-area {
+      height: 447px;
     }
     .green {
-      background: $accent-color url('../images/layout/ramas/green.png') no-repeat center right;
+      background: $accent-color;
       color: #fff;
-    }
-    .green-leaf {
-      background: $accent-color url('../images/layout/hojas/hoja-verde.png') no-repeat center center;
-      color: #fff;
-      min-height: 280px;
-      a {
-        color: #fff;
-        font-size: 32px;
+      &.ramas {
+        background: $accent-color url('../images/layout/ramas/green.png') no-repeat center right;
       }
+      &.leaf {
+        background: $accent-color url('../images/layout/hojas/hoja-verde.png') no-repeat center center;
+        color: #fff;
+        min-height: 280px;
+        a {
+          color: #fff;
+          font-size: 32px;
+        }
+      }
+    }
+    .fit-width {
+      min-width: 100%;
+      border-bottom: 20px solid #fff;
+      border-left: 20px solid #fff;
     }
     .gray {
       background: $gray-light-color;
@@ -172,22 +190,63 @@
       padding: 40px;
       position: relative;
     }
-    .foto-absolute {
-      width: 50%;
-      position: absolute;
-      height: auto;
-      border: 1px solid red;
-      top: 0;
-      right: -50%;
-      display: none;
+    .no-borders {
+      margin: 0;
+      > div {
+        padding: 0;
+      }
+      .boxed-img {
+        border: 20px solid #fff;
+      }
+    }
+    .flowers {
+      letter-spacing: 3px;
+      ul {
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 100px;
+        li {
+          margin-bottom: 20px;
+          position: relative;
+          padding-left: 60px;
+          color: #4C4B4A;
+          font-weight: bold;
+          &:before {
+            content: ' ';
+            background: url('../images/layout/li.png') no-repeat;
+            width: 17px;
+            height: 17px;
+            display: block;
+            position: absolute;
+            margin-left: -30px;
+            margin-top: 2px;
+          }
+        }
+      }
+      .green {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 115%;
+        padding: 30px;
+        padding-right: 70px;
+        text-align: right;
+      }
+    }
+    .box-vertical {
+      margin: 20px 0;
     }
     .box-title {
       display: block;
       border: 2px solid #fff;
-      padding: 10px 40px;
+      padding: 20px 40px;
+      margin: 20px;
       text-transform: uppercase;
       letter-spacing: 2px;
       font-weight: 600;
+    }
+    .stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices {
+      height: 22px;
     }
     .text {
       text-align: left;
@@ -197,8 +256,12 @@
         font-size: 13px;
       }
     }
-    .box-vertical {
-      margin: 30px 0;
+    .last-row {
+      height: 240px;
+      overflow: hidden;
+      > div:first-child {
+        padding-left: 30px;
+      }
     }
   }
 }

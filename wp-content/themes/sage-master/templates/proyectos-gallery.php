@@ -43,11 +43,12 @@
           <span class="name">Ver evento</span>
         </a>
         <div class="event-info">
-          <div class="row">
+          <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/proyectos/noche-tevilah/1.jpg" class="floating-img">
+          <div class="row floating-bg">
             <div class="col-sm-8">
-              <div class="green color-area">
+              <div class="green ramas color-area">
                 <div class="row">
-                  <div class="col-sm-6">
+                  <div class="col-sm-8">
                     <h4 class="box-title no-margin">Noche Tevilah</h4>
                     <div class="text">
                       <p>
@@ -60,46 +61,44 @@
                   </div>
                 </div>
               </div>
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/proyectos/noche-tevilah/1.jpg" class="foto-absolute">
             </div>
             <div class="col-sm-4">
-              <div class="gray gray-first color-area">
-                test
+              <div class="gray color-area">
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row no-borders">
             <div class="col-sm-4">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/proyectos/noche-tevilah/2.jpg" class="img-responsive">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/proyectos/noche-tevilah/5.jpg" class="img-responsive box-vertical">
             </div>
             <div class="col-sm-8">
-              <div class="row">
-                <div class="col-sm-6">
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/proyectos/noche-tevilah/3.png" class="img-responsive box-vertical">
+              <div class="row no-borders">
+                <div class="col-sm-7">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/proyectos/noche-tevilah/3.png" class="img-responsive boxed-img">
                 </div>
-                <div class="col-sm-6">
-                  <div class="gray color-area text-left">
-                    <ul>
+                <div class="col-sm-5">
+                  <div class="gray color-area text-left flowers">
+                    <ul class="list-unstyled">
                       <li>VIOLETAS</li>
                       <li>BROMELIAS</li>
                       <li>BRISMA</li>
                       <li>JAZMIN</li>
                     </ul>
-                    - Arreglos campestres
+                    <div class="green">
+                      - Arreglos campestres
+                    </div>
                   </div>
                 </div>
               </div>
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/proyectos/noche-tevilah/4.jpg" class="img-responsive">
-              <div class="row">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/proyectos/noche-tevilah/4.jpg" class="img-responsive fit-width">
+              <div class="row last-row">
                 <div class="col-sm-6">
-                  <div class="green-leaf color-area">
-                     <h6 class="box-title">Comparte este evento</h6>
-                     <ul class="list-inline">
-                       <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                       <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                       <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                     </ul>
+                  <div class="green leaf color-area social-share">
+                    <h6 class="box-title">Comparte este evento</h6>
+                    <span class='st_facebook_hcount' displayText='Facebook'></span>
+                    <span class='st_twitter_hcount' displayText='Tweet'></span>
+                    <span class='st_pinterest_hcount' displayText='Pinterest'></span>
                   </div>
                 </div>
                 <div class="col-sm-6">
