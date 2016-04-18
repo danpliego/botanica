@@ -116,11 +116,12 @@
       display: none;
     }
     .toggle-event {
-      color: $gray-color;
+      color: $gray-dark-color;
       margin-top: 20px;
       display: block;
+      opacity: .3;
       .circle {
-        border: 3px solid $gray-color;
+        border: 3px solid $gray-dark-color;
         border-radius: 50px;
         display: inline-block;
         width: 70px;

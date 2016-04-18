@@ -50,10 +50,15 @@
     border: 2px solid $gray-color;
     padding: 7px 10px 6px;
     color: $gray-color;
-    -moz-transition: all 500ms linear;
-    -webkit-transition: all 500ms linear;
-    transition: all 500ms linear;
-    &.down {
+    &:hover, &:focus, &:active {
+      color: $gray-color;
+    }
+    i {
+      -moz-transition: all 500ms linear;
+      -webkit-transition: all 500ms linear;
+      transition: all 500ms linear;
+    }
+    i.down {
       -ms-transform:rotate(180deg);
       -moz-transform:rotate(180deg);
       -webkit-transform:rotate(180deg);

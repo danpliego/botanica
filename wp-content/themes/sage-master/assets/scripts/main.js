@@ -33,7 +33,7 @@
           $('.menu-wrapper').fadeOut();
         });
 
-        $('.close-menu').hover(function () {
+        $('.close-menu i').hover(function () {
           $(this).toggleClass("down");
         });
 
@@ -58,23 +58,15 @@
           });
 
           $('.toggle-event').mouseenter(function() {
-            $( ".toggle-event i" ).animate({
-              paddingTop: "19px",
-              fontSize: "28px",
-            }, 500 );
             $( ".toggle-event" ).animate({
-              fontSize: "15px",
+              opacity: '.7'
             }, 500 );
 
           });
 
           $('.toggle-event').mouseleave(function() {
-            $( ".toggle-event i" ).animate({
-              paddingTop: "20px",
-              fontSize: '24px'
-            }, 500 );
             $( ".toggle-event" ).animate({
-              fontSize: "14px",
+              opacity: '.3'
             }, 500 );
           });
 
