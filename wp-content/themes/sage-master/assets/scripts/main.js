@@ -33,6 +33,10 @@
           $('.menu-wrapper').fadeOut();
         });
 
+        $('.close-menu').hover(function () {
+          $(this).toggleClass("down");
+        });
+
         $('.toggle-contact').on('click', function(e) {
           e.preventDefault();
           $('.contact-form').fadeIn();
@@ -48,10 +52,30 @@
             $('.toggle-event').hide();
             $('.event-info').fadeIn();
 
-
-            var largeHeight = $('.boxed-img').outerHeight()
+            var largeHeight = $('.boxed-img').outerHeight();
             $('.flowers').css('height', largeHeight - 20);
 
+          });
+
+          $('.toggle-event').mouseenter(function() {
+            $( ".toggle-event i" ).animate({
+              paddingTop: "19px",
+              fontSize: "28px",
+            }, 500 );
+            $( ".toggle-event" ).animate({
+              fontSize: "15px",
+            }, 500 );
+
+          });
+
+          $('.toggle-event').mouseleave(function() {
+            $( ".toggle-event i" ).animate({
+              paddingTop: "20px",
+              fontSize: '24px'
+            }, 500 );
+            $( ".toggle-event" ).animate({
+              fontSize: "14px",
+            }, 500 );
           });
 
           source = $('.slide-image img').attr('src');
@@ -85,7 +109,7 @@
 
         $('.gallery-link').on('click', function(e) {
           e.preventDefault();
-          $('.submenu').fadeIn();
+          $('.submenu').fadeIn('slow');
         });
 
       },

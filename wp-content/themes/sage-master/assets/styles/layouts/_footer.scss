@@ -23,7 +23,12 @@
       letter-spacing: 2px;
     }
     .btn {
-      margin-bottom: 10px;
+      margin-top: -6px;
+      &:hover, &:active, &:focus {
+        background: $accent-color;
+        color: #fff;
+        border-color: $accent-color;
+      }
     }
     img {
       display: block;

@@ -21,7 +21,7 @@
       </li>
     </ul>
     <a href="#" class="close-menu btn-close">
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/layout/close-menu.png">
+      <i class="glyphicon glyphicon-remove"></i>
     </a>
   </div>
 </div>

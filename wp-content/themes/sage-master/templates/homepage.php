@@ -1,4 +1,4 @@
-<div id="slider_top" class="carousel slide" data-ride="carousel">
+<div id="slider_top" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="false">
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item item-1 active">

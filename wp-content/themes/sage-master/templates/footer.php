@@ -12,7 +12,7 @@
       <div class="col-md-6 col-sm-8 text-right footer-menu">
         <ul class="list-inline">
           <li>
-            <a href="#" class="btn btn-dark btn-block btn-sm toggle-contact">Haz una cita</a>
+            <a href="#" class="btn btn-default btn-block btn-sm toggle-contact">Haz una cita</a>
           </li>
           <li>
             <a href="tel:5255335944" class="data">
@@ -29,7 +29,7 @@
           </li>
         </ul>
         <div class="contact-form" id="contact_form">
-          <?php echo do_shortcode( '[contact-form-7 id="39" title="Contact form"]' ); ?>
+          <?php echo do_shortcode( '[contact-form-7 id="47" title="Contact form 1"]' ); ?>
         </div>
         <p class="data location">Ciudad de México</p>
       </div>
