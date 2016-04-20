@@ -17,6 +17,16 @@
             <a href="<?php bloginfo('url'); ?>" class="btn btn-default">Ver por colores</a>
           </div>
         </div>
+        <div class="num-counter">
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">7</a>
+          <a href="#">8</a>
+        </div>
         <div class="slider-container">
           <h1 class="title">
             1.- Antigua Black

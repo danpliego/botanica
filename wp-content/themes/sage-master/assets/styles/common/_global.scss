@@ -1,6 +1,8 @@
 body {
   font-family: 'Raleway', sans-serif;
   color: $body-color;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
 }
 .logo-container {
   width: 645px;
@@ -11,4 +13,22 @@ body {
 }
 .no-margin {
   margin: 0px!important;
+}
+.num-counter {
+	text-align: center;
+	a {
+		display: inline-block;
+		padding: 5px;
+		margin: 3px;
+		color: $body-color;
+		font-size: 18px;
+		font-weight: 600;
+		margin-bottom: 45px;
+		&:hover, &:focus, &:active {
+			text-decoration: none;
+		}
+		&.active {
+			border-bottom: 2px solid $body-color;
+		}
+	}
 }

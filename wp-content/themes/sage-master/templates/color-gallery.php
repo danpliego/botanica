@@ -17,6 +17,12 @@
             <a href="<?php bloginfo('url'); ?>/estilos/" class="btn btn-default">Ver por estilos</a>
           </div>
         </div>
+        <div class="colors">
+          <a href="#" class="red"></a>
+          <a href="#" class="yellow"></a>
+          <a href="#" class="green"></a>
+          <a href="#" class="purple"></a>
+        </div>
         <div class="slider-container">
           <div class="title red">
             <h2>Rojo</h2>

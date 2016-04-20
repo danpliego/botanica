@@ -10,24 +10,24 @@
         </div>
       </div>
       <div class="col-md-6 col-sm-8 text-right footer-menu">
-        <ul class="list-inline">
-          <li>
+        <div class="media text-left">
+          <div class="media-left">
             <a href="#" class="btn btn-default btn-block btn-sm toggle-contact">Haz una cita</a>
-          </li>
-          <li>
+          </div>
+          <div class="media-body">
             <a href="tel:5255335944" class="data">
               Llamanos:
               <br>
               (52) 5533.5944
             </a>
-          </li>
-          <li>
+          </div>
+          <div class="media-right">
             <a href="mailto:contacto@botanica.mx" class="data">
             Escríbenos:
             <br>
             contacto@botanica.mx</a>
-          </li>
-        </ul>
+          </div>
+        </div>
         <div class="contact-form" id="contact_form">
           <?php echo do_shortcode( '[contact-form-7 id="47" title="Contact form 1"]' ); ?>
         </div>

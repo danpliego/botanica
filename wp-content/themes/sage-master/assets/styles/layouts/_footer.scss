@@ -13,17 +13,20 @@
     }
   }
   .footer-menu {
-    li {
-      margin-right: 15px;
-      text-align: left;
-      vertical-align: top;
+    .media {
+      > div {
+        padding-right: 50px;
+        &:last-child {
+          padding-right: 0;
+        }
+      }
     }
     a {
       text-transform: initial;
       letter-spacing: 2px;
     }
     .btn {
-      margin-top: -6px;
+      margin-top: 0px;
       &:hover, &:active, &:focus {
         background: $accent-color;
         color: #fff;
@@ -34,23 +37,23 @@
       display: block;
     }
     .data {
-      font-size: 12px;
+      font-size: 13px;
       color: $body-color;
+      font-weight: 600;
     }
     .location {
       margin-top: 20px;
-      margin-right: 20px;
     }
   }
   .contact-form {
-    margin: 15px 20px 0 0;
+    margin-top: 15px;
     display: none;
     input[type="text"], input[type="email"], textarea {
       width: 100%;
-      border: 2px solid $body-color;
+      border: 2px solid $gray-color;
       background: #fff;
       letter-spacing: 2px;
-      font-weight: 500;
+      font-weight: 600;
       padding: 10px 12px;
       margin-bottom: 20px;
     }

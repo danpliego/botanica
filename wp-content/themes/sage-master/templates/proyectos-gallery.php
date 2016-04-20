@@ -36,6 +36,16 @@
         <div class="slide-image">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/proyectos/noche-tevilah.jpg" alt="">
         </div>
+        <div class="num-counter">
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">7</a>
+          <a href="#">8</a>
+        </div>
         <a href="#" class="toggle-event">
           <span class="circle">
             <i class="fa fa-chevron-down"></i>

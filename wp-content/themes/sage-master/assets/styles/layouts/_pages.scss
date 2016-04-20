@@ -1,4 +1,4 @@
-.section {
+co.section {
   margin: 30px 0;
   .open-menu {
     border: 2px solid $gray-color;
@@ -21,6 +21,32 @@
 // Color gallery
 
 .color-gallery {
+  .colors {
+    text-align: center;
+    margin-bottom: 23px;
+    a {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      margin: 0 7px 7px;
+      &.red {
+        background-color: $red-color;
+      }
+      &.yellow {
+        background-color: $yellow-color;
+      }
+      &.green {
+        background-color: $accent-color;
+      }
+      &.purple {
+        background-color: $alt-color;
+      }
+    }
+  }
+  .royalSlider {
+    margin-left: 5%;
+  }
   .title {
     margin-top: 50px;
     height: 400px;
@@ -32,7 +58,7 @@
     h2 {
       margin-top: 170px;
       text-transform: uppercase;
-      font-weight: 500;
+      font-weight: bold;
       letter-spacing: 10px;
       font-size: 36px;
     }
@@ -68,6 +94,13 @@
     z-index: 11;
     margin-left: -20px;
     margin-top: -10px;
+    font-weight: 600;
+  }
+  .slider-container {
+    margin-top: 20px;
+    .rsThumbs {
+      padding-left: 10px;
+    }
   }
 }
 
@@ -93,7 +126,7 @@
       letter-spacing: 5px;
       display: inline-block;
       margin-bottom: 30px;
-      font-weight: 600;
+      font-weight: bold;
       &:after {
         content: '';
         display: block;
@@ -136,6 +169,7 @@
         text-transform: uppercase;
         letter-spacing: 3px;
         margin-top: 10px;
+        font-weight: bold;
       }
       &:hover {
         text-decoration: none;
@@ -244,7 +278,7 @@
       margin: 20px;
       text-transform: uppercase;
       letter-spacing: 2px;
-      font-weight: 600;
+      font-weight: bold;
     }
     .stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices {
       height: 22px;
@@ -265,4 +299,18 @@
       }
     }
   }
+  .num-counter a {
+    margin-top: 5px;
+    font-size: 15px;
+    margin: 0;
+    color: $gray-color;
+    &.active {
+      border-bottom: 0;
+      color: $accent-color;
+    }
+  }
+}
+
+.rsDefaultInv .rsThumbs {
+  padding-left: 10px!important;
 }
